@@ -1,0 +1,117 @@
+main {
+  margin-top: 25%;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8%;
+}
+
+hr {
+  color: #D8D8D8;
+}
+
+.container {
+  display: flex;
+  margin-top: 0%;
+}
+
+input {
+  font-size: 1rem;
+  width: 95%;
+  border: 0px;
+  border-bottom: 1px solid;
+  margin-top: 5%;
+}
+input[type="submit"] {
+  width: 10rem;
+  height: 1.9rem;
+  margin: 5% auto;
+  background-color: black;
+  color: aliceblue;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.send {
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: large;
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  color: #8c8c8c;
+  margin-top: 0.0%;
+}
+
+.address {
+  margin-top: 1%;
+}
+
+.signup {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: #fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1.2px solid;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    border: #8c8c8c 2px;
+    width: 90%;
+  }
+
+  main {
+
+    padding-left: 10px;
+    margin-left: 10%;
+  }
+}
+.title{
+  font-size: 2.4rem;
+}
+.title2{
+  font-size: 1.5rem;
+}
+input{
+  font-size: 1.6rem;
+}
+.phone {
+  font-size: 1.7rem;
+
+}
+.contact-info {
+font-size: 1.2rem;
+}
+.address {
+  font-size: 1.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+main {
+width: 50%;
+padding-left:20%;
+}
+}
